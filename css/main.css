@@ -108,6 +108,42 @@ body {
   height: 100%;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header, main, footer, .wrapper {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    border: 1px solid #b3d4fc;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    background: url(../img/bkgd.jpg) no-repeat;
+}
+
+main {
+    width: 100%;
+    font-weight: 800;
+    border: 1px solid #b3d4fc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    background: url(../img/bkgd.jpg) no-repeat;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -131,11 +167,19 @@ body {
   align-items: center;
 }
 
-
 .div-2, .div-3 {
     border-left: 1px solid #fff; 
 }
 
+footer {
+    height: 20px;
+    border: 1px solid #b3d4fc;
+    padding: 10px;
+    margin: 10px;
+    background: url(../img/bkgd.jpg) no-repeat;
+    align-items: center;
+    width: 100%;
+}
 
 
 /* ==========================================================================
